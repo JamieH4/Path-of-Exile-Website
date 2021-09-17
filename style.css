@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color:rgb(200, 200, 200);
+    /* background-color:rgb(50, 0, 0,0.5);
+    box-sizing: border-box;
+    padding: 10px; */
+} 
+/* This is how to target ALL of your HTML code . This shows how to change the background colour. */
+/* Box-sizing: border-box resets the border to the whole HTML as most borders have their own setting. */
+/* Padding: one value (number) represents padding on all sides, two values represents top and bottom, three values represents top, right and left, then bottom. Four values represents top, right, bottom, left. */
+
+body {
+    background-image: url("eldershaper.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/* This is how to add a background image. */
+
+#navbar {
+    background-color:rgb(0,50,200,1);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+
+#navbar a {
+    color:yellow;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar a:hover {
+    color:red;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    font-size: 24px;
+}
+
+.maindisplay {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.poeclasses {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.shade {
+    background-color: rgb(0,0,100,0.7);
+}
+
+.largetext {
+    text-align: center;
+    font-size: 36px;
+}
+
+.mediumtext {
+    text-align: center;
+    font-size: 24px;
+}
+
+.classmapdisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+}
+
+.acts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.acts1to10 {
+    display: flex;
+    align-items: center;
+}
+
+.poecolour {
+    color: limegreen;
+}
